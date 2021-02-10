@@ -1,0 +1,7 @@
+1) parce que le serveur ecoute sur le port 8080
+
+2) On obtient <html><body><h1>Welcome to Nyx</h1></body></html>
+
+3) 5 requetes HTTP
+
+4) avec cache 9,64s  / sans cache 7,56s 
