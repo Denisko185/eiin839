@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Net;
 
-
+/**
+ * 
+ * AUTOR : ADANLEHOUSSI KOMI DENIS
+ * 
+ * */
 namespace HeaderNsp
 {
     class Header
