@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionSample", "WebDyna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalExeCall", "WebDynamic\ExternalExeCall\ExternalExeCall.csproj", "{074D07BF-12F5-4995-B74F-9955F0B14D5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "externApp", "WebDynamic\externApp\externApp.csproj", "{CCEE4C57-E7A5-4DCC-8DB8-9F65C7A0AE64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{074D07BF-12F5-4995-B74F-9955F0B14D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{074D07BF-12F5-4995-B74F-9955F0B14D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{074D07BF-12F5-4995-B74F-9955F0B14D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCEE4C57-E7A5-4DCC-8DB8-9F65C7A0AE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEE4C57-E7A5-4DCC-8DB8-9F65C7A0AE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEE4C57-E7A5-4DCC-8DB8-9F65C7A0AE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEE4C57-E7A5-4DCC-8DB8-9F65C7A0AE64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

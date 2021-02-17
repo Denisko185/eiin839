@@ -4,6 +4,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 using System.Web;
+using BasicWebServer;
 
 namespace BasicServerHTTPlistener
 {
@@ -101,6 +102,26 @@ namespace BasicServerHTTPlistener
                 Console.WriteLine("param2 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param2"));
                 Console.WriteLine("param3 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param3"));
                 Console.WriteLine("param4 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param4"));
+
+
+    //##################################################################################################
+
+
+
+                //generation dynamique de document de document
+
+                // appel dynamique interne
+
+                MyMethods myMthd = new MyMethods();
+                // documentContents = myMthd.mymethod(HttpUtility.ParseQueryString(request.Url.Query).Get("param1"), HttpUtility.ParseQueryString(request.Url.Query).Get("param2"));
+
+                // appel dynamique externe
+
+                documentContents = myMthd.externApp(HttpUtility.ParseQueryString(request.Url.Query).Get("param1"), HttpUtility.ParseQueryString(request.Url.Query).Get("param2"));
+
+
+
+    //##################################################################################################
 
                 //
                 Console.WriteLine(documentContents);

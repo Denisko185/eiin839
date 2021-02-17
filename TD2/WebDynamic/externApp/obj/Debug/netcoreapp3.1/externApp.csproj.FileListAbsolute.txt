@@ -1,0 +1,12 @@
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\bin\Debug\netcoreapp3.1\externApp.exe
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\bin\Debug\netcoreapp3.1\externApp.deps.json
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\bin\Debug\netcoreapp3.1\externApp.runtimeconfig.json
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\bin\Debug\netcoreapp3.1\externApp.runtimeconfig.dev.json
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\bin\Debug\netcoreapp3.1\externApp.dll
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\bin\Debug\netcoreapp3.1\externApp.pdb
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\obj\Debug\netcoreapp3.1\externApp.AssemblyInfoInputs.cache
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\obj\Debug\netcoreapp3.1\externApp.AssemblyInfo.cs
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\obj\Debug\netcoreapp3.1\externApp.csproj.CoreCompileInputs.cache
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\obj\Debug\netcoreapp3.1\externApp.dll
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\obj\Debug\netcoreapp3.1\externApp.pdb
+D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\obj\Debug\netcoreapp3.1\externApp.genruntimeconfig.cache
