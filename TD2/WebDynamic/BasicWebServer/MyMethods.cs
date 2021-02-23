@@ -11,10 +11,10 @@ namespace BasicWebServer
             return " < HTML >< BODY > Hello " + par1 + " et " + par2 + "</ BODY ></ HTML > ";
         }
 
-        public string externApp(string par1, string par2)
+        public string externapp(string par1, string par2)
         {
             ProcessStartInfo start = new ProcessStartInfo();
-            start.FileName = @"D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\bin\Debug\netcoreapp3.1\externApp.exe"; // Specify exe name.
+            start.FileName = @"D:\SI4\Semestre_8\Soc\eiin839\TD2\WebDynamic\externApp\bin\Debug\netcoreapp3.1\externapp.exe"; // Specify exe name.
             start.Arguments =  par1 + " " + par2; // Specify arguments.
             start.UseShellExecute = false;
             start.RedirectStandardOutput = true;

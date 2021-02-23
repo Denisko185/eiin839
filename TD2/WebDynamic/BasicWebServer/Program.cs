@@ -5,6 +5,8 @@ using System.Net;
 using System.Text;
 using System.Web;
 using BasicWebServer;
+using System.Reflection;
+
 
 namespace BasicServerHTTPlistener
 {
@@ -104,20 +106,26 @@ namespace BasicServerHTTPlistener
                 Console.WriteLine("param4 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param4"));
 
 
-    //##################################################################################################
+     //##################################################################################################
 
 
 
-                //generation dynamique de document de document
+                //generation dynamique de document 
 
-                // appel dynamique interne
-
+                string methodeName = request.Url.Segments[request.Url.Segments.Length - 1].ToLower();
                 MyMethods myMthd = new MyMethods();
-                // documentContents = myMthd.mymethod(HttpUtility.ParseQueryString(request.Url.Query).Get("param1"), HttpUtility.ParseQueryString(request.Url.Query).Get("param2"));
+                Type type = typeof(MyMethods);
+                MethodInfo method = type.GetMethod(methodeName);
 
-                // appel dynamique externe
-
-                documentContents = myMthd.externApp(HttpUtility.ParseQueryString(request.Url.Query).Get("param1"), HttpUtility.ParseQueryString(request.Url.Query).Get("param2"));
+                if(method!= null)
+                {
+                    string[] parametres = { HttpUtility.ParseQueryString(request.Url.Query).Get("param1"), HttpUtility.ParseQueryString(request.Url.Query).Get("param2") };
+                    documentContents = (string)method.Invoke(myMthd, parametres);
+                }
+                else
+                {
+                    Console.WriteLine("Le lien est incorecte");
+                }
 
 
 

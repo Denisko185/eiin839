@@ -31,14 +31,17 @@ namespace HeaderNsp
 
         public static void DisplayHeader(HttpListenerRequest listner)
         {
-            Console.WriteLine(" MIME : ->     "+listner.Headers[HttpRequestHeader.Accept.ToString()]);
-            Console.WriteLine(" Cookies : ->     "+ listner.Headers[HttpRequestHeader.Cookie.ToString()]);
-            Console.WriteLine(" User Agent : ->     "+ listner.Headers[HttpRequestHeader.UserAgent.ToString()]);
-            Console.WriteLine(" Accept Enconding : ->     "+ listner.Headers[HttpRequestHeader.AcceptEncoding.ToString()]);
-            Console.WriteLine(" Authorization : ->     "+ listner.Headers[HttpRequestHeader.Authorization.ToString()]);
-            Console.WriteLine(" Content Language : ->     "+ listner.Headers[HttpRequestHeader.ContentLanguage.ToString()]);
-            Console.WriteLine(" Accept Charset : ->     "+ listner.Headers[HttpRequestHeader.AcceptCharset.ToString()]);
-            Console.WriteLine(" Allow : ->     ", listner.Headers[HttpRequestHeader.Allow.ToString()]);
+            Console.WriteLine("\n\nLes types  MIME : ->     "+listner.Headers[HttpRequestHeader.Accept.ToString()]);
+            Console.WriteLine("Les données de cookie présentées au serveur : ->     " + listner.Headers[HttpRequestHeader.Cookie.ToString()]);
+            Console.WriteLine("Les langages naturels préférés pour la réponse : ->     "+ listner.Headers[HttpRequestHeader.AcceptLanguage.ToString()]);
+            Console.WriteLine("Les informations relatives à l’agent clien : ->     "+ listner.Headers[HttpRequestHeader.UserAgent.ToString()]);
+            Console.WriteLine("Les informations d’identification que le client doit présenter pour s’authentifier auprès du serveur : ->     "+ listner.Headers[HttpRequestHeader.Authorization.ToString()]);
+            Console.WriteLine("L’adresse email Internet pour l’utilisateur humain qui contrôle l’agent utilisateur demandeur : ->     " + listner.Headers[HttpRequestHeader.From.ToString()]);
+            Console.WriteLine("Le jeu de méthodes HTTP pris en charge : ->     ", listner.Headers[HttpRequestHeader.Allow.ToString()]);
+            Console.WriteLine("Les langages naturels des données associées au body : ->     " + listner.Headers[HttpRequestHeader.ContentLanguage.ToString()]);
+            Console.WriteLine("Les jeux de caractères acceptables pour la réponse : ->     " + listner.Headers[HttpRequestHeader.AcceptCharset.ToString()]);
+            Console.WriteLine("Les encodages de contenu acceptables pour la réponse : ->     " + listner.Headers[HttpRequestHeader.AcceptEncoding.ToString()]+ "\n\n");
+
 
         }
 

@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionSample", "WebDyna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalExeCall", "WebDynamic\ExternalExeCall\ExternalExeCall.csproj", "{074D07BF-12F5-4995-B74F-9955F0B14D5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "externApp", "WebDynamic\externApp\externApp.csproj", "{CCEE4C57-E7A5-4DCC-8DB8-9F65C7A0AE64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "externapp", "WebDynamic\externApp\externapp.csproj", "{CCEE4C57-E7A5-4DCC-8DB8-9F65C7A0AE64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

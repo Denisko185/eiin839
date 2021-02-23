@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("externApp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("externapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("externApp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("externApp")]
+[assembly: System.Reflection.AssemblyProductAttribute("externapp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("externapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.

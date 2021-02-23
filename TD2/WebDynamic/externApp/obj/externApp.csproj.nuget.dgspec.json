@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SI4\\Semestre_8\\Soc\\eiin839\\TD2\\WebDynamic\\externApp\\externApp.csproj": {}
+    "D:\\SI4\\Semestre_8\\Soc\\eiin839\\TD2\\WebDynamic\\externApp\\externapp.csproj": {}
   },
   "projects": {
-    "D:\\SI4\\Semestre_8\\Soc\\eiin839\\TD2\\WebDynamic\\externApp\\externApp.csproj": {
+    "D:\\SI4\\Semestre_8\\Soc\\eiin839\\TD2\\WebDynamic\\externApp\\externapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SI4\\Semestre_8\\Soc\\eiin839\\TD2\\WebDynamic\\externApp\\externApp.csproj",
-        "projectName": "externApp",
-        "projectPath": "D:\\SI4\\Semestre_8\\Soc\\eiin839\\TD2\\WebDynamic\\externApp\\externApp.csproj",
+        "projectUniqueName": "D:\\SI4\\Semestre_8\\Soc\\eiin839\\TD2\\WebDynamic\\externApp\\externapp.csproj",
+        "projectName": "externapp",
+        "projectPath": "D:\\SI4\\Semestre_8\\Soc\\eiin839\\TD2\\WebDynamic\\externApp\\externapp.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
         "outputPath": "D:\\SI4\\Semestre_8\\Soc\\eiin839\\TD2\\WebDynamic\\externApp\\obj\\",
         "projectStyle": "PackageReference",
