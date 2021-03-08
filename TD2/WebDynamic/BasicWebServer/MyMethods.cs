@@ -4,7 +4,7 @@ using System.IO;
 
 namespace BasicWebServer
 {
-    class MyMethods
+    public class MyMethods
     {
         public string mymethod(string par1,string par2)
         {
@@ -29,6 +29,12 @@ namespace BasicWebServer
                     return result;
                 }
             }
+        }
+
+        public string incr(string val)
+        {
+            int v = Int32.Parse(val);
+            return "<<incr OK val = " + v++ + ">>";
         }
     }
 }
