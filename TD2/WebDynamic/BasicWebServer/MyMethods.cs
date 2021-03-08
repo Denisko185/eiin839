@@ -34,7 +34,8 @@ namespace BasicWebServer
         public string incr(string val)
         {
             int v = Int32.Parse(val);
-            return "<<incr OK val = " + v++ + ">>";
+            v = v + 1;
+            return "<<incr OK val = " + v + ">>";
         }
     }
 }
